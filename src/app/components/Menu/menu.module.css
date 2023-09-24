@@ -6,11 +6,16 @@ margin-top: 60px;
     color:gray;
     font-size: 16px;
     font-weight: 400;
-
+    
 }
 .title{
     font-size: 28px;
-
+    
+}
+.postTitle{
+    font-size: 18px;
+    font-weight: 500;
+    color:var(--softTextColor)
 }
 .items{
     margin-top: 35px;
@@ -62,14 +67,16 @@ margin-top: 60px;
 .coding{
     background-color: #775aec;
 }
-.postTitle{
-    font-size: 18px;
-    font-weight: 500;
-    color:var(--softTextColor)
-}
 .detail{
     font-size: 12px;
 }
 .date{
     color:gray;
+}
+
+@media screen and(max-width:1024px) {
+    .container{
+        display: none;
+    }
+    
 }

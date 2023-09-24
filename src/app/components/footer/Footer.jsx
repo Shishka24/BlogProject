@@ -10,13 +10,14 @@ function Footer() {
         <div className={styles.logo}>
           <Image src="/logo.png" alt="vlad blog" width={50} height={50} />
           <h1 className={styles.logoTxt}>VladBlog</h1>
-          <p className={styles.desc}>
-            One of these craziest experiences took place when I was riding from
-            Cuzco to Lima in Peru. Now, if you’ve ever ridden this windy bus
-            leg, you know it’s almost impossible not at least feel a little ill.
-            Honestly, if you’re only a bit queasy and not puking out the
-            window...
-          </p>
+        </div>
+        <p className={styles.desc}>
+          One of these craziest experiences took place when I was riding from
+          Cuzco to Lima in Peru. Now, if you’ve ever ridden this windy bus leg,
+          you know it’s almost impossible not at least feel a little ill.
+          Honestly, if you’re only a bit queasy and not puking out the window...
+        </p>
+        <div className={styles.icons}>
           <Image src="/facebook.png" alt="" width={18} height={18} />
           <Image src="/instagram.png" alt="" width={18} height={18} />
           <Image src="/youtube.png" alt="" width={18} height={18} />
