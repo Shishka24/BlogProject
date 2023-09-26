@@ -6,7 +6,7 @@ import { useState } from "react";
 
 const AuthLinks = () => {
   const [open, setOpen] = useState(false);
-  const status = "notAuth";
+  const status = "Auth";
   return (
     <>
       {status === "notAuth" ? (

@@ -1,0 +1,11 @@
+.container{
+
+}
+.editor{
+    display: flex;
+    gap:20px;
+    height: 700px;
+}
+.textArea{
+    width: 100%;
+}
